@@ -1,11 +1,12 @@
 {
-  "name": "form-validator",
+  "name": "form-submit-validator",
   "version": "0.0.1",
   "description": "一个简单的表单校验器，用于对前端表单的字段验证",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "prepublish": "webpack --config webpack.config.js"
   },
   "keywords": [
     "form",
